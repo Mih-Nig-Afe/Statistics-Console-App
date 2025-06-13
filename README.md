@@ -50,7 +50,7 @@ A Java console application that calculates statistical measures (Mean, Median, M
 ### Steps
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/statistics-console-app.git
+   git clone https://github.com/Mih-Nig-Afe/statistics-console-app.git
    cd statistics-console-app
    ```
 
