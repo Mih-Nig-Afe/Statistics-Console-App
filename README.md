@@ -50,7 +50,7 @@ A Java console application that calculates statistical measures (Mean, Median, M
 ### Steps
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Mih-Nig-Afe/statistics-console-app.git
+   git clone https://github.com/Mih-Nig-Afe/Statistics-Console-App
    cd statistics-console-app
    ```
 
@@ -169,6 +169,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 Created as an educational project demonstrating basic Object-Oriented Programming concepts in Java.
+By Mihretab N. Afework
 
 ---
 
