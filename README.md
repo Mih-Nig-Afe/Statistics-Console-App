@@ -169,6 +169,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 Created as an educational project demonstrating basic Object-Oriented Programming concepts in Java.
+
 By Mihretab N. Afework
 
 ---
