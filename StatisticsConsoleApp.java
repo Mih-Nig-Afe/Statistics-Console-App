@@ -10,7 +10,6 @@ interface StatOperation {
 
 /**
  * Main class that encapsulates the data list
- * Provides methods to manage the statistical data
  */
 class StatisticsCalculator {
     private List<Double> dataList;
@@ -57,7 +56,7 @@ class StatisticsCalculator {
 }
 
 /**
- * Calculator class for computing the mean (average)
+ * Calculator class for computing the mean
  * Implements StatOperation interface
  */
 class MeanCalculator implements StatOperation {
@@ -151,8 +150,7 @@ class ModeCalculator implements StatOperation {
 }
 
 /**
- * Main application class for the Statistics Console App
- * Demonstrates polymorphism through StatOperation interface
+ * Main application class for the Statistics Console
  */
 public class StatisticsConsoleApp {
     private StatisticsCalculator calculator;
