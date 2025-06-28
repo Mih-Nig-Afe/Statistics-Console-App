@@ -1,16 +1,11 @@
 import java.util.*;
 
-/**
- * Interface for statistical operations
- * Defines the contract for all statistical calculators
- */
+// Interface for statistical operations
 interface StatOperation {
     double calculate();
 }
 
-/**
- * Main class that encapsulates the data list
- */
+// Main calculator class for managing data
 class StatisticsCalculator {
     private List<Double> dataList;
     
@@ -55,10 +50,7 @@ class StatisticsCalculator {
     }
 }
 
-/**
- * Calculator class for computing the mean
- * Implements StatOperation interface
- */
+// Calculates arithmetic mean
 class MeanCalculator implements StatOperation {
     private List<Double> data;
     
@@ -81,10 +73,7 @@ class MeanCalculator implements StatOperation {
     }
 }
 
-/**
- * Calculator class for computing the median
- * Implements StatOperation interface
- */
+// Calculates median value
 class MedianCalculator implements StatOperation {
     private List<Double> data;
     
@@ -113,10 +102,7 @@ class MedianCalculator implements StatOperation {
     }
 }
 
-/**
- * Calculator class for computing the mode
- * Implements StatOperation interface
- */
+// Calculates most frequent value
 class ModeCalculator implements StatOperation {
     private List<Double> data;
     
@@ -149,9 +135,7 @@ class ModeCalculator implements StatOperation {
     }
 }
 
-/**
- * Main application class for the Statistics Console
- */
+// Main console application
 public class StatisticsConsoleApp {
     private StatisticsCalculator calculator;
     private Scanner scanner;
